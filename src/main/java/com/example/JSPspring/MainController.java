@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 
     @GetMapping("/api/indexJsp")
-    public String jspSpring(){
-        return "student";
+    public String jspSpring() {
+        return "i want to render some random page because it is not working jsp.";
     }
 }
